@@ -13,7 +13,7 @@ def generate_launch_description():
             executable=("publisher.py"),
             name="rpm_pub_node",
             parameters=[
-                {'rpm': 5.0}
+                {'rpm_value': 5.0}
             ]
         ), 
         Node(
