@@ -11,10 +11,21 @@ def generate_launch_description():
         Node(
             package="project_one",
             executable=("publisher.py"),
-            name="rpm_pub_node"
+            name="rpm_pub_node",
+            parameters=[
+                {'rpm': 5.0}
+            ]
         ), 
+        Node(
+            package="project_one",
+            executable=("combined.py"),
+            name="combined_rpm_node",
+            parameters=[
+                {'wheel_radius': 10.0}
+            ]
+        ),
         ExecuteProcess(
-            cmd=['ros2', 'topic', 'list'],
+            cmd=['ros2', 'topic', 'echo', '/speed'],
             output="screen"
         )
     ]

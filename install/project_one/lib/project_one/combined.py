@@ -14,7 +14,7 @@ class CombinedRPM(Node):
 
     def calculate_speed(self, rpm_msg):
         print(f"RPM: {rpm_msg.data}")
-        speed = rpm_msg.data * self.get_parameter("wheel_radius").get_parameter_value().double_valueE * 2 * 3.14 / 60
+        speed = rpm_msg.data * self.get_parameter("wheel_radius").get_parameter_value().double_value * 2 * 3.14 / 60
         msg = Float32()
         msg.data = float(speed)
         self.pub.publish(msg)
