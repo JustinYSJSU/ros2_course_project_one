@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-53a5db040cca02666d4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "project_one__py",
+					"jsonFile" : "directory-project_one__py-44c1d4d999a680ab6584.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/justiny/ros2_course_project_one/build/project_one/project_one__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "project_one",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_project_one_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_project_one_egg-b59c9505840295f144d8.json",
+					"name" : "ament_cmake_python_build_project_one_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_project_one::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_project_one-a65f799ee2def666df26.json",
+					"name" : "ament_cmake_python_copy_project_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one-3e9a2f0e0292953ac021.json",
+					"name" : "project_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__cpp-60889756e9f107226ec9.json",
+					"name" : "project_one__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "project_one__py::@65893462b1698597e69a",
+					"jsonFile" : "target-project_one__py-a8551fc5b3da6bdf2e43.json",
+					"name" : "project_one__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__rosidl_generator_c-7f02794d0b206267f96f.json",
+					"name" : "project_one__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__rosidl_generator_py-fad7d3beb60c12a550c4.json",
+					"name" : "project_one__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__rosidl_typesupport_c-afac467efa7b3aacc8d3.json",
+					"name" : "project_one__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__rosidl_typesupport_c__pyext-bb9ea5527486c0036641.json",
+					"name" : "project_one__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__rosidl_typesupport_cpp-747b0546422f21748e99.json",
+					"name" : "project_one__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__rosidl_typesupport_fastrtps_c-212086365a771e2a4265.json",
+					"name" : "project_one__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__rosidl_typesupport_fastrtps_c__pyext-9517f6d3863a53453414.json",
+					"name" : "project_one__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__rosidl_typesupport_fastrtps_cpp-d4ffeee3aa956f447403.json",
+					"name" : "project_one__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__rosidl_typesupport_introspection_c-df921aaebef7f57992b0.json",
+					"name" : "project_one__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__rosidl_typesupport_introspection_c__pyext-c5488122604c5f6186a5.json",
+					"name" : "project_one__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one__rosidl_typesupport_introspection_cpp-8ae11f34c2985e2da204.json",
+					"name" : "project_one__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_one_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_one_uninstall-0ac4227ad516d6ca4a07.json",
+					"name" : "project_one_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a1c9fc8ef39df9212d9a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/justiny/ros2_course_project_one/build/project_one",
+		"source" : "/home/justiny/ros2_course_project_one/src/project_one"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

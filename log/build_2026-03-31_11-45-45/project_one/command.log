@@ -1,0 +1,6 @@
+Invoking command in '/home/justiny/ros2_course_project_one/build/project_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/justiny/ros2_course_project_one/src/project_one -DCMAKE_INSTALL_PREFIX=/home/justiny/ros2_course_project_one/install/project_one
+Invoked command in '/home/justiny/ros2_course_project_one/build/project_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/justiny/ros2_course_project_one/src/project_one -DCMAKE_INSTALL_PREFIX=/home/justiny/ros2_course_project_one/install/project_one
+Invoking command in '/home/justiny/ros2_course_project_one/build/project_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/justiny/ros2_course_project_one/build/project_one -- -j16 -l16
+Invoked command in '/home/justiny/ros2_course_project_one/build/project_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/justiny/ros2_course_project_one/build/project_one -- -j16 -l16
+Invoking command in '/home/justiny/ros2_course_project_one/build/project_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/justiny/ros2_course_project_one/build/project_one
+Invoked command in '/home/justiny/ros2_course_project_one/build/project_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/justiny/ros2_course_project_one/build/project_one

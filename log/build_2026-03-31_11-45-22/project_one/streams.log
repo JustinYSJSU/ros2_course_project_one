@@ -1,0 +1,48 @@
+[0.010s] Invoking command in '/home/justiny/ros2_course_project_one/build/project_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/justiny/ros2_course_project_one/src/project_one -DCMAKE_INSTALL_PREFIX=/home/justiny/ros2_course_project_one/install/project_one
+[0.182s] -- The C compiler identification is GNU 11.4.0
+[0.498s] -- The CXX compiler identification is GNU 11.4.0
+[0.680s] -- Detecting C compiler ABI info
+[0.785s] -- Detecting C compiler ABI info - done
+[0.788s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.789s] -- Detecting C compile features
+[0.790s] -- Detecting C compile features - done
+[0.792s] -- Detecting CXX compiler ABI info
+[0.897s] -- Detecting CXX compiler ABI info - done
+[0.901s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.901s] -- Detecting CXX compile features
+[0.902s] -- Detecting CXX compile features - done
+[0.907s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.002s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.624s] [33mCMake Warning at CMakeLists.txt:14 (find_package):
+[1.624s]   By not providing "Findament_cmake_REQUIRED.cmake" in CMAKE_MODULE_PATH this
+[1.624s]   project has asked CMake to find a package configuration file provided by
+[1.624s]   "ament_cmake_REQUIRED", but CMake did not find one.
+[1.624s] 
+[1.624s]   Could not find a package configuration file provided by
+[1.624s]   "ament_cmake_REQUIRED" with any of the following names:
+[1.624s] 
+[1.624s]     ament_cmake_REQUIREDConfig.cmake
+[1.624s]     ament_cmake_required-config.cmake
+[1.624s] 
+[1.624s]   Add the installation prefix of "ament_cmake_REQUIRED" to CMAKE_PREFIX_PATH
+[1.624s]   or set "ament_cmake_REQUIRED_DIR" to a directory containing one of the
+[1.624s]   above files.  If "ament_cmake_REQUIRED" provides a separate development
+[1.624s]   package or SDK, be sure it has been installed.
+[1.624s] 
+[1.625s] [0m
+[1.625s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.626s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.632s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.848s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[1.848s]   Packages installing interfaces must include
+[1.848s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.848s]   package.xml
+[1.848s] Call Stack (most recent call first):
+[1.848s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[1.848s] 
+[1.848s] [0m
+[1.848s] -- Configuring incomplete, errors occurred!
+[1.848s] See also "/home/justiny/ros2_course_project_one/build/project_one/CMakeFiles/CMakeOutput.log".
+[1.855s] Invoked command in '/home/justiny/ros2_course_project_one/build/project_one' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/justiny/ros2_course_project_one/src/project_one -DCMAKE_INSTALL_PREFIX=/home/justiny/ros2_course_project_one/install/project_one

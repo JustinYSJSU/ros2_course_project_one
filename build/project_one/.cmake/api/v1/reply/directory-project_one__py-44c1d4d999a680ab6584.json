@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "project_one__py",
+		"source" : "/home/justiny/ros2_course_project_one/build/project_one/project_one__py"
+	}
+}

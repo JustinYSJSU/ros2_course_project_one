@@ -1,0 +1,17 @@
+[33mCMake Warning at CMakeLists.txt:14 (find_package):
+  By not providing "Findament_cmake_REQUIRED.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ament_cmake_REQUIRED", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "ament_cmake_REQUIRED" with any of the following names:
+
+    ament_cmake_REQUIREDConfig.cmake
+    ament_cmake_required-config.cmake
+
+  Add the installation prefix of "ament_cmake_REQUIRED" to CMAKE_PREFIX_PATH
+  or set "ament_cmake_REQUIRED_DIR" to a directory containing one of the
+  above files.  If "ament_cmake_REQUIRED" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m

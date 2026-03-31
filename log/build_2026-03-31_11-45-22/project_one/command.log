@@ -1,0 +1,2 @@
+Invoking command in '/home/justiny/ros2_course_project_one/build/project_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/justiny/ros2_course_project_one/src/project_one -DCMAKE_INSTALL_PREFIX=/home/justiny/ros2_course_project_one/install/project_one
+Invoked command in '/home/justiny/ros2_course_project_one/build/project_one' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/justiny/ros2_course_project_one/src/project_one -DCMAKE_INSTALL_PREFIX=/home/justiny/ros2_course_project_one/install/project_one

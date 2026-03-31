@@ -1,0 +1,6 @@
+{
+  "package_name": "project_one",
+  "non_idl_tuples": [
+    "/home/justiny/ros2_course_project_one/src/project_one:srv/OddEvenCheck.srv"
+  ]
+}
